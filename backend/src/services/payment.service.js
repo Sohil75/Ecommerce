@@ -21,7 +21,7 @@ const createPaymentLink = async (orderId) => {
       email:true
     },
     reminder_enable:true,
-    callback_url:`https://effervescent-sunflower-cd9145.netlify.app/payment/${orderId}`,
+    callback_url:`https://effervescent-sunflower-cd9145.netlify.app`,
     callback_method:'get',
     };
 
